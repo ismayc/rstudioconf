@@ -1,0 +1,24 @@
+---
+title: "Teaching Introductory Statistics <br> using the <small>`tidyverse`</small> <br> via <small>`bookdown`</small>"
+subtitle: "2017 rstudio::conf"
+author: "Chester Ismay <br><br> Reed College/Pacific University"
+date: "2017/01/13 <br><br> Slides available at http://bit.ly/rstudioconf <br><br> Source code available at http://bit.ly/rstudioconf-code"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
