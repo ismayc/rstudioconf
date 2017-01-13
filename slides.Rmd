@@ -1,8 +1,8 @@
 ---
 title: "Teaching Introductory Statistics using the <small>`tidyverse`</small> via <small>`bookdown`</small>"
 subtitle: "rstudio::conf 2017"
-author: "Chester Ismay (and Albert Y. Kim) <br> Twitter: @old_man_chester <br><br> Reed College/Pacific University"
-date: "2017/01/13 <br><br> Slides available at http://bit.ly/rstudioconf17 <br><br> Source code available at https://github.com/ismayc/rstudioconf"
+author: "Chester Ismay (and Albert Y. Kim) <br> Twitter: @old_man_chester <br> Reed College/Pacific University"
+date: "2017/01/13 <br><br> Slides available at http://bit.ly/rstudioconf17 <br> Source code available at https://github.com/ismayc/rstudioconf"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -117,6 +117,8 @@ class: center, middle
 ## An Introduction to Statistical and Data Sciences via R
 
 ***
+
+Authors:  Chester Ismay, Albert Y. Kim and **you**?
 
 ## [ModernDive.com](http://moderndive.com)
 
@@ -263,7 +265,7 @@ ggplot(data = simple_ex, mapping = aes(x = A, y = B)) +
 
 ---
 
-## Introducing students to <small>`ggplot2`</small>
+## Teaching the Grammar of Graphics via "chalk talk"
 
 ```{r}
 simple_ex <- data_frame(
@@ -384,6 +386,8 @@ include_graphics("images/fallon.gif")
 ### - **rich enough** to answer meaningful questions with, 
 ### - **real enough** to ensure that there is context, and 
 ### - **realistic enough** to convey to students that data as it exists <br> "in the wild" often needs processing.
+
+### Easily and quickly accessible to novices, so that we [minimize the prerequisites to research](https://arxiv.org/abs/1507.05346).
 
 ---
 
